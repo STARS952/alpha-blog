@@ -1,0 +1,69 @@
+
+
+.navbar {
+    background-color: black !important;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container{
+    margin-top: 25px;
+}
+
+.jumbotron{
+    background-image: url('city-a.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.container-footer {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    
+  }
+
+#sticky-footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+  } 
+
+#page-content{
+    flex: 1 1 auto;
+    background-color: gray;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+#page-content-index{
+    flex: 1 1 auto;
+    background-color: gray;
+    background-size:cover;
+    height: auto;
+    width: 100%;
+}
+
+html,body {
+    margin:0;
+    height: 100%;
+}
+
+body{
+    min-height:100%;
+}
